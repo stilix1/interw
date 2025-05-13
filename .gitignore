@@ -1,10 +1,22 @@
-# Byte-compiled / cache
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# IDE / editor folders
+# IDEs
 .vscode/
 .idea/
 
-# Mac system files
+# OS
 .DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test cache
+.pytest_cache/
