@@ -1,0 +1,21 @@
+id,email,name,department,hours_worked,hourly_rate
+525,alice@example.com,Alice Johnson,Marketing,160,50
+6324,bob@example.com,Bob Smith,Design,150,40
+888,carol@example.com,Carol Williams,Design,170,60
+777,john.doe@example.com,John Doe,Engineering,165,55
+885,jane.roe@example.com,Jane Roe,Marketing,158,52
+912,mike.brown@example.com,Mike Brown,Sales,172,48
+6236,lisa.gray@example.com,Lisa Gray,HR,160,45
+12512,tom.white@example.com,Tom White,Engineering,175,58
+15125,nancy.green@example.com,Nancy Green,Support,162,42
+1253,steve.black@example.com,Steve Black,Finance,168,60
+8652,emily.red@example.com,Emily Red,Design,155,46
+52151,mark.gold@example.com,Mark Gold,Marketing,163,50
+286,susan.blue@example.com,Susan Blue,Engineering,170,59
+44122,david.silver@example.com,David Silver,Sales,166,47
+95125,karen.pink@example.com,Karen Pink,HR,160,44
+7547,kevin.orange@example.com,Kevin Orange,Support,161,43
+123213,olivia.brown@example.com,Olivia Brown,Design,169,61
+5325,james.gray@example.com,James Gray,Finance,158,57
+1233,chloe.king@example.com,Chloe King,Marketing,164,51
+12222,ryan.wood@example.com,Ryan Wood,Engineering,173,60
