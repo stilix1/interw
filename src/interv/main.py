@@ -117,10 +117,8 @@ class ReportGenerator:
         if report_func:
             report_func()
         else:
-            print(f"\n Ошибка: тип отчета '{report_type}' не найден.")
-            print(" Воспользуйтесь одним из доступных:")
-            for name in self.get_available_reports():
-                print(f" - {name}")
+            raise ValueError(f"Неверный тип отчета: '{report_type}'."
+                             f" Доступные отчеты: {', '.join(self.get_available_reports())}")
 
     def generate_payout_report(self):
         """генерация отчета по зп"""

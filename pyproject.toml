@@ -1,0 +1,8 @@
+[project]
+name = "interv"
+version = "0.1.0"
+description = "Генерация отчетов из CSV"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

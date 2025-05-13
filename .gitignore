@@ -1,22 +1,25 @@
-# Ignore Python virtual environments
-venv/
-.env/
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
 
-# IDEs
+# Virtual env
+venv/
+env/
+
+# Pytest
+.coverage
+.pytest_cache/
+tests/.pytest_cache/
+
+# VSCode / IDE
 .vscode/
 .idea/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Test cache
-.pytest_cache/
