@@ -12,7 +12,7 @@ def test_main_payout_report(capfd):
         os.path.join(csv_dir, 'data1.csv'),
         os.path.join(csv_dir, 'data2.csv'),
         os.path.join(csv_dir, 'data3.csv'),
-        os.path.join(csv_dir, 'workers.csv')
+        os.path.join(csv_dir, 'workers.json')
     ]
 
     # Запуск основного скрипта с типом отчета

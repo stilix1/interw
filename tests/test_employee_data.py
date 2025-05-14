@@ -131,7 +131,7 @@ def test_process_multiple_csv(tmp_path):
                      "Bob,IT,60,170,2,bob@example.com\n")
 
     emp_data = EmployeeData([str(file1), str(file2)])
-    result = emp_data.process_multiple_csv()
+    result = emp_data.process_multiple_files()
 
     assert len(result) == 2
     assert result[0]['name'] == 'Alice'

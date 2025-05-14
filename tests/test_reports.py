@@ -9,8 +9,10 @@ from src.interv.main import ReportGenerator, EmployeeData, calculate_salary, sor
 
 def test_generate_average_hourly_rate_report_valid(capfd):
     sample_data = [
-        {'id': '1', 'email': 'a@example.com', 'name': 'Alice', 'department': 'Sales', 'hours_worked': '160', 'hourly_rate': '50'},
-        {'id': '2', 'email': 'b@example.com', 'name': 'Bob', 'department': 'Sales', 'hours_worked': '150', 'hourly_rate': '70'}
+        {'id': '1', 'email': 'a@example.com', 'name': 'Alice', 'department': 'Sales', 'hours_worked': '160',
+         'hourly_rate': '50'},
+        {'id': '2', 'email': 'b@example.com', 'name': 'Bob', 'department': 'Sales', 'hours_worked': '150',
+         'hourly_rate': '70'}
     ]
     report = ReportGenerator(sample_data)
     report.generate_average_hourly_rate_report()
@@ -22,8 +24,10 @@ def test_generate_average_hourly_rate_report_valid(capfd):
 
 def test_generate_average_hourly_rate_report_empty_values(capfd):
     sample_data = [
-        {'id': '1', 'email': 'a@example.com', 'name': 'Alice', 'department': 'HR', 'hours_worked': '160', 'hourly_rate': 'notanumber'},
-        {'id': '2', 'email': 'b@example.com', 'name': 'Bob', 'department': 'HR', 'hours_worked': '150', 'hourly_rate': ''}
+        {'id': '1', 'email': 'a@example.com', 'name': 'Alice', 'department': 'HR',
+         'hours_worked': '160', 'hourly_rate': 'notanumber'},
+        {'id': '2', 'email': 'b@example.com', 'name': 'Bob', 'department': 'HR',
+         'hours_worked': '150', 'hourly_rate': ''}
     ]
     report = ReportGenerator(sample_data)
     report.generate_average_hourly_rate_report()

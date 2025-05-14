@@ -1,0 +1,162 @@
+[
+    {
+        "id": "525",
+        "email": "alice@example.com",
+        "name": "Alice Johnson",
+        "department": "Marketing",
+        "hours_worked": "160",
+        "hourly_rate": "50"
+    },
+    {
+        "id": "6324",
+        "email": "bob@example.com",
+        "name": "Bob Smith",
+        "department": "Design",
+        "hours_worked": "150",
+        "hourly_rate": "40"
+    },
+    {
+        "id": "888",
+        "email": "carol@example.com",
+        "name": "Carol Williams",
+        "department": "Design",
+        "hours_worked": "170",
+        "hourly_rate": "60"
+    },
+    {
+        "id": "777",
+        "email": "john.doe@example.com",
+        "name": "John Doe",
+        "department": "Engineering",
+        "hours_worked": "165",
+        "hourly_rate": "55"
+    },
+    {
+        "id": "885",
+        "email": "jane.roe@example.com",
+        "name": "Jane Roe",
+        "department": "Marketing",
+        "hours_worked": "158",
+        "hourly_rate": "52"
+    },
+    {
+        "id": "912",
+        "email": "mike.brown@example.com",
+        "name": "Mike Brown",
+        "department": "Sales",
+        "hours_worked": "172",
+        "hourly_rate": "48"
+    },
+    {
+        "id": "6236",
+        "email": "lisa.gray@example.com",
+        "name": "Lisa Gray",
+        "department": "HR",
+        "hours_worked": "160",
+        "hourly_rate": "45"
+    },
+    {
+        "id": "12512",
+        "email": "tom.white@example.com",
+        "name": "Tom White",
+        "department": "Engineering",
+        "hours_worked": "175",
+        "hourly_rate": "58"
+    },
+    {
+        "id": "15125",
+        "email": "nancy.green@example.com",
+        "name": "Nancy Green",
+        "department": "Support",
+        "hours_worked": "162",
+        "hourly_rate": "42"
+    },
+    {
+        "id": "1253",
+        "email": "steve.black@example.com",
+        "name": "Steve Black",
+        "department": "Finance",
+        "hours_worked": "168",
+        "hourly_rate": "60"
+    },
+    {
+        "id": "8652",
+        "email": "emily.red@example.com",
+        "name": "Emily Red",
+        "department": "Design",
+        "hours_worked": "155",
+        "hourly_rate": "46"
+    },
+    {
+        "id": "52151",
+        "email": "mark.gold@example.com",
+        "name": "Mark Gold",
+        "department": "Marketing",
+        "hours_worked": "163",
+        "hourly_rate": "50"
+    },
+    {
+        "id": "286",
+        "email": "susan.blue@example.com",
+        "name": "Susan Blue",
+        "department": "Engineering",
+        "hours_worked": "170",
+        "hourly_rate": "59"
+    },
+    {
+        "id": "44122",
+        "email": "david.silver@example.com",
+        "name": "David Silver",
+        "department": "Sales",
+        "hours_worked": "166",
+        "hourly_rate": "47"
+    },
+    {
+        "id": "95125",
+        "email": "karen.pink@example.com",
+        "name": "Karen Pink",
+        "department": "HR",
+        "hours_worked": "160",
+        "hourly_rate": "44"
+    },
+    {
+        "id": "7547",
+        "email": "kevin.orange@example.com",
+        "name": "Kevin Orange",
+        "department": "Support",
+        "hours_worked": "161",
+        "hourly_rate": "43"
+    },
+    {
+        "id": "123213",
+        "email": "olivia.brown@example.com",
+        "name": "Olivia Brown",
+        "department": "Design",
+        "hours_worked": "169",
+        "hourly_rate": "61"
+    },
+    {
+        "id": "5325",
+        "email": "james.gray@example.com",
+        "name": "James Gray",
+        "department": "Finance",
+        "hours_worked": "158",
+        "hourly_rate": "57"
+    },
+    {
+        "id": "1233",
+        "email": "chloe.king@example.com",
+        "name": "Chloe King",
+        "department": "Marketing",
+        "hours_worked": "164",
+        "hourly_rate": "51"
+    },
+    {
+        "id": "12222",
+        "email": "ryan.wood@example.com",
+        "name": "Ryan Wood",
+        "department": "Engineering",
+        "hours_worked": "173",
+        "hourly_rate": "60"
+    }
+]
